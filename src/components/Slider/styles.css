@@ -1,0 +1,26 @@
+.swiper-button-prev {
+  transition: all 0.3s;
+  color: rgba(255, 255, 255, .3);
+}
+
+.swiper-button-next {
+  transition: all 0.3s;
+  color: rgba(255, 255, 255, .3);
+}
+
+.swiper-button-prev:hover {
+  color: white;
+}
+
+.swiper-button-next:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 608px) {
+  .swiper-button-prev {
+    display: none;
+  }
+  .swiper-button-next {
+    display: none;
+  }
+}

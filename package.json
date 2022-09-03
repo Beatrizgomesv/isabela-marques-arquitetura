@@ -1,0 +1,30 @@
+{
+  "name": "isabela-marques-arquitetura",
+  "version": "1.0.0",
+  "private": true,
+  "description": "isabela-marques-arquitetura",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby-plugin-s3 deploy"
+  },
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^3.0.6",
+    "@chakra-ui/react": "^2.3.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@react-icons/all-files": "^4.1.0",
+    "framer-motion": "^7.2.1",
+    "gatsby": "^4.22.0",
+    "gatsby-plugin-s3": "^0.3.8",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "swiper": "^8.3.2"
+  }
+}
