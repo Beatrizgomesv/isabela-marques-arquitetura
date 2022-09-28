@@ -13,8 +13,12 @@ import styled from "@emotion/styled";
 
 //Slider images
 import Slide1 from "../../images/Interior AF-1.jpg";
-import Slide2 from "../../images/Residência RR-2.jpg";
+import Slide2 from "../../images/Residência RR-1.jpg";
 import Slide3 from "../../images/Residência JE-3.jpg";
+import Slide4 from "../../images/Comercial SID Imóveis-1.jpg";
+import Slide5 from "../../images/Interior AF-10.jpg";
+import Slide6 from "../../images/Interior AF-8.jpg";
+import Slide7 from "../../images/Interior AF-9.jpg";
 
 const SlideImage = styled.img`
   width: 100%;
@@ -74,6 +78,18 @@ export default function Slider() {
       </SwiperSlide>
       <SwiperSlide>
         <SlideImage src={Slide3} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SlideImage src={Slide4} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SlideImage src={Slide5} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SlideImage src={Slide6} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SlideImage src={Slide7} />
       </SwiperSlide>
     </StyledSwiper>
   );

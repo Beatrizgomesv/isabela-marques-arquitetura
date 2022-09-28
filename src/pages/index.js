@@ -4,6 +4,10 @@ import { Header, Slider } from "../components";
 import { extendTheme } from "@chakra-ui/react";
 
 import "../css/index.css";
+import Banner from "../components/Banner/Banner";
+import Gallery from "../components/Gallery/Gallery";
+import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
 
 const theme = extendTheme({
   colors: {
@@ -18,6 +22,10 @@ const IndexPage = () => {
     <ChakraProvider theme={theme}>
       <Header />
       <Slider />
+      <Banner/>
+      <Gallery/>
+      <Contact/>
+      <Footer/>
     </ChakraProvider>
   );
 };
