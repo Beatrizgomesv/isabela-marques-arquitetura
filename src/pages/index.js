@@ -8,6 +8,7 @@ import Banner from "../components/Banner/Banner";
 import Gallery from "../components/Gallery/Gallery";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
+import Whatsapp from "../components/Whatsapp/Whatsapp";
 
 const theme = extendTheme({
   colors: {

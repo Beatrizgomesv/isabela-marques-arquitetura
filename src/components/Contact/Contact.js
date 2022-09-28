@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Center, Text, Box, SimpleGrid } from "@chakra-ui/react";
+import { Text, Box, SimpleGrid } from "@chakra-ui/react";
 import Map from "./Map/Map";
 
 export default function Contact() {
