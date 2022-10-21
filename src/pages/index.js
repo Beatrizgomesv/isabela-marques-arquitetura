@@ -6,9 +6,8 @@ import { extendTheme } from "@chakra-ui/react";
 import "../css/index.css";
 import Banner from "../components/Banner/Banner";
 import Gallery from "../components/Gallery/Gallery";
-import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
-import Whatsapp from "../components/Whatsapp/Whatsapp";
+import Copy from "../components/Copy";
 
 const theme = extendTheme({
   colors: {
@@ -21,12 +20,14 @@ const theme = extendTheme({
 const IndexPage = () => {
   return (
     <ChakraProvider theme={theme}>
-      <Header />
-      <Slider />
-      <Banner/>
-      <Gallery/>
-      <Contact/>
-      <Footer/>
+      <>
+        <Header />
+        <Slider />
+        <Banner />
+        <Gallery />
+        <Footer />
+        <Copy/>
+      </>
     </ChakraProvider>
   );
 };

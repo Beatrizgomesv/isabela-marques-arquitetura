@@ -43,6 +43,7 @@ const GalleryCardOverlay = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 0;
 
   &:hover {
     opacity: 1;
