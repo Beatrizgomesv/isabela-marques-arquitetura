@@ -2,7 +2,6 @@ import { Flex } from "@chakra-ui/react";
 import React from "react";
 import NavIcon from "./NavIcon";
 import NavItem from "./NavItem";
-import styled from "@emotion/styled";
 
 // const HoverMenu = styled.div`
 //   transition: all 0.5s;

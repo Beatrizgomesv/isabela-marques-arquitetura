@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ChakraProvider } from "@chakra-ui/react";
+import { Box, ChakraProvider, Flex } from "@chakra-ui/react";
 import { Header, Slider } from "../components";
 import { extendTheme } from "@chakra-ui/react";
 
@@ -8,6 +8,7 @@ import Banner from "../components/Banner/Banner";
 import Gallery from "../components/Gallery/Gallery";
 import Footer from "../components/Footer/Footer";
 import Copy from "../components/Copy";
+import Whatsapp from "../components/Whatsapp/Whatsapp";
 
 const theme = extendTheme({
   colors: {
@@ -20,14 +21,21 @@ const theme = extendTheme({
 const IndexPage = () => {
   return (
     <ChakraProvider theme={theme}>
-      <>
+    <Box style={{zIndex:4, position: "absolute", bottom: 0, right: 0}}>
+     <Whatsapp/>
+     </Box>
+      <Box>
         <Header />
         <Slider />
+        <Flex direction={"column"}>
         <Banner />
         <Gallery />
         <Footer />
         <Copy/>
-      </>
+        </Flex>
+      </Box>
+      
+      
     </ChakraProvider>
   );
 };

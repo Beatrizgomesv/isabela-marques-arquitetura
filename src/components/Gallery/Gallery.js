@@ -35,7 +35,7 @@ const galleryImages = [
 
 const GalleryCardOverlay = styled.div`
   flex: 1;
-  background-color: rgba(156,144,124, 0.4);
+  background-color: rgba(13, 31, 67, 0.4);
   margin-left: -100%;
   z-index: 3;
   opacity: 0;
@@ -69,7 +69,7 @@ export default function Gallery() {
   const [currentOverlayedImg, setCurrentOverlayedImg] = React.useState();
   return (
     <>
-      <Grid templateColumns="repeat(4, 1fr)" gap={1} mt={20} mx={15}>
+      <Grid templateColumns="repeat(4, 1fr)" gap={1} mt={400} mx={15}>
         {galleryImages.map((galleryImg, index) => (
           <GridItem
             w="100%"

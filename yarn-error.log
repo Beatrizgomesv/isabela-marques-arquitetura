@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add react-spring
+
+PATH: 
+  C:\Users\biiaa\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\biiaa\bin;C:\Python311\Scripts;C:\Python311;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Users\biiaa\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\biiaa\AppData\Local\Microsoft\WindowsApps;C:\Users\biiaa\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\biiaa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  17.9.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\biiaa\documents\desenvolvimento\react\isabela-marques-arquiteta\node_modules\@parcel\cache\node_modules\@lmdb\lmdb-win32-x64\node.abi102.node'
+
+npm manifest: 
+  {
+    "name": "isabela-marques-arquitetura",
+    "version": "1.0.0",
+    "private": true,
+    "description": "isabela-marques-arquitetura",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "deploy": "gatsby-plugin-s3 deploy"
+    },
+    "dependencies": {
+      "@chakra-ui/gatsby-plugin": "^3.0.6",
+      "@chakra-ui/react": "^2.3.1",
+      "@emotion/react": "^11.10.4",
+      "@emotion/styled": "^11.10.4",
+      "@react-google-maps/api": "^2.13.1",
+      "@react-icons/all-files": "^4.1.0",
+      "framer-motion": "^7.2.1",
+      "gatsby": "^4.22.0",
+      "gatsby-plugin-s3": "^0.3.8",
+      "react": "^18.1.0",
+      "react-dom": "^18.1.0",
+      "react-floating-whatsapp": "^4.0.5",
+      "swiper": "^8.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
